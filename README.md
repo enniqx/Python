@@ -41,4 +41,7 @@ print(b)
 print(len(b))
 
 
+b = 2.3   -  определение типа данных
+print(type(a))
+
 
