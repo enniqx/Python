@@ -1,3 +1,5 @@
+Списки
+
 phones = ["iPhone Xs", "Samsung 10s", "Xiaomi Mi8"]    - создание списка и подсчет
 print(phones)
 phones_count = len(phones)
@@ -17,3 +19,6 @@ phones.sort()  - сортировка одного типа данных
 print("Samsung 10s" in phones) - проверка есть ли элемент в списке
 del phones[3] удаление позиции с индексом 3
 phones.remove('iPhone Xs') - удаление первую позицию с этим названием 
+
+
+Словари
