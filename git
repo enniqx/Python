@@ -1,1 +1,14 @@
+git init  -  создание репозитория
 
+git config --global user.name "enniqx"   - конфигурация имени
+git config --global user.email enniqx@gmail.com - конфигурацияя почты
+
+git status - проверка статуса гита
+git add .  -  добавить все файлы в гит
+dit add -A - добавит ьвсе изменения
+git commit -m "комментарий сохранения" - сохранить файлы
+
+
+файл - .gitignore - добавляем в него файлы которые не нужно добавлять в коммит
+
+git log - история гита
