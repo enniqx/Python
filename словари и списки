@@ -1,8 +1,8 @@
 Списки
 
-phones = ["iPhone Xs", "Samsung 10s", "Xiaomi Mi8"]    - создание списка и подсчет
+phones = ["iPhone Xs", "Samsung 10s", "Xiaomi Mi8"]    - создание списка 
 print(phones)
-phones_count = len(phones)
+phones_count = len(phones) -  подсчет списка
 print(phones_count)
 phones.append("iPhone 6")  -  добавление эллемента в список
 print(phones.count("iPhone Xs")) - подсчет конкретной позиции списка
@@ -32,3 +32,14 @@ product['memory'] = 64 - если такого ключа нет создает�
 print(product['name']) - запрос имени
 print(product.get['discount']) - если ввести get - и если такого ключа нет - вернет - None
 del product["stock"] - удаление ключа
+
+
+phones = ["iPhone Xs", "Samsung Galaxy s10", "Xiaomi mi8"]       -  вложенный словарь
+product = {
+    "name": "iPhone Xs",
+    "stock": 5,
+    "price": 65000.0,
+    "recomend" : phones
+}
+print(product["recomend"])
+print(product["recomend"][1])
