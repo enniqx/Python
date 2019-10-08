@@ -2,3 +2,7 @@ phones = ["iPhone Xs", "Samsung 10s", "Xiaomi Mi8"]    - создание спи
 print(phones)
 phones_count = len(phones)
 print(phones_count)
+
+phones.append("iPhone 6")  -  добавление эллемента в список
+
+print(phones.count("iPhone Xs")) - подсчет конкретной позиции списка
