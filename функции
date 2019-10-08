@@ -1,1 +1,5 @@
+Функция создается с ключа - def
 
+def discounted(price, discount):                            - пример создания функции расчета скидки
+    price_with_discount = price - price * discount / 100
+    print(price_with_discount)
