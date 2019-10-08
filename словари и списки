@@ -4,13 +4,9 @@ phones = ["iPhone Xs", "Samsung 10s", "Xiaomi Mi8"]    - создание спи
 print(phones)
 phones_count = len(phones)
 print(phones_count)
-
 phones.append("iPhone 6")  -  добавление эллемента в список
-
 print(phones.count("iPhone Xs")) - подсчет конкретной позиции списка
-
 print(phones[0]) - напечатать 1 позицию списка
-
 print(phones[1:3])  - вывести срез списка , с 1 по 3 но не включая 3й
 print(phones[-1])  - вывести первый с конца
 print(phones[:2])  - c 0 до 2 не включая 2
